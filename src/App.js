@@ -54,13 +54,9 @@ function App() {
   };
 
   const applyAnimation = () => {
-    // Trigger a CSS animation by adding or removing a class
     const element = document.getElementById("animated-element");
-
     if (element) {
       element.classList.add("rotate-animation");
-
-      // Remove the class after the animation duration to enable re-triggering
       setTimeout(() => {
         element.classList.remove("rotate-animation");
       }, 2000);
