@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.animated-box {
+  transition: transform 2s ease;
+}
+
+.rotate-animation {
+  transform: rotate(360deg);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
