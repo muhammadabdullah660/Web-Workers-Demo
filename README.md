@@ -1,6 +1,5 @@
 Certainly! Here's a simplified version of the README code for you to copy and paste:
 
-````markdown
 # Web Worker Demo
 
 ## Project Description
@@ -20,7 +19,7 @@ This React web application demonstrates the use of Web Workers for parallel proc
    git clone https://github.com/your-username/web-worker-demo.git
    cd web-worker-demo
    ```
-````
+
 
 2. **Install Dependencies:**
 
@@ -72,6 +71,3 @@ This project aims to showcase potential performance improvements provided by Web
 - **Issue:** Keeping the code organized and readable.
 - **Solution:** Modularized the code, used functions effectively, and followed best practices for maintainability.
 
-```
-
-```
