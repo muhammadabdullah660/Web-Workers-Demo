@@ -16,8 +16,8 @@ This React web application demonstrates the use of Web Workers for parallel proc
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/web-worker-demo.git
-   cd web-worker-demo
+   git clone https://github.com/your-username/web-workers-demo.git
+   cd web-workers-demo
    ```
 
 
