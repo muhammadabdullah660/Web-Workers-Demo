@@ -28,6 +28,7 @@ function App() {
     console.log("data generated");
     const startTime = performance.now();
     const sortedData = [...data].sort((a, b) => a - b);
+    console.log("data sorted", sortedData);
     const endTime = performance.now();
     setProcessingTimeWithoutWorker(endTime - startTime);
     setIsLoading(false);
@@ -44,6 +45,7 @@ function App() {
 
     workerInstance.onmessage = (event) => {
       const sortedData = event.data;
+      console.log("data sorted", sortedData);
       const endTime = performance.now();
       setProcessingTimeWithWorker(endTime - startTime);
       setIsLoading(false);
